@@ -37,9 +37,10 @@ export default function Projects() {
       <>
     <Container>
         <Row>
-        <Col md={7}></Col>
         <Col md={4}>
-        <div style={{textAlign:"left", marginTop: "80pt"}}>
+        </Col>
+        <Col md={8}>
+        <div className="text-center" style={{textAlign:"left", margin: "40pt"}}>
             <h1 className="display-6">Projects</h1>
             <p> magni dolores eos qui ratione voluptatem sequi nesciunt.<br /> Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur</p>
         </div>

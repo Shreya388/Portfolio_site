@@ -1,18 +1,18 @@
 #footer{
-    background: #f1f1f1;
-    color: rgb(32, 32, 32);
+    background: #111111;
+    color: rgb(253, 253, 253);
 }
 
 #footer_content{
-    background: #1f1f1f; padding: 50pt 0; color: rgb(42, 42, 42); border:1pt solid rgb(212, 212, 212);
+    background: #1f1f1f; padding: 50pt 0; color: rgb(255, 255, 255); border:1pt solid rgb(212, 212, 212);
 }
 
 .footer_nav{
-    padding-top: 15pt; padding-bottom: 15pt; background: #ff1717; 
+    padding-top: 15pt; padding-bottom: 15pt; background: #000000; 
 }
 
 .footerLink {
-    color: #1d1d1d; font-size: 11pt; text-decoration: none;
+    color: #ffffff; font-size: 11pt; text-decoration: none;
 }   
 
 .textbox{
@@ -22,7 +22,7 @@
 }
 
 #Link{
-    color: rgb(20, 20, 20);
+    color: rgb(226, 226, 226);
     font-size: 14pt;
 }
 

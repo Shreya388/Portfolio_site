@@ -5,13 +5,13 @@ import "./Cover.css";
 const Topbar = () => {
   return (
     <Navbar expand="lg" variant="dark" className="topbar p-3 fixed-top">
-      <Container>
+      <Container fluid>
         <Navbar.Brand href="#home">Shreya Jha</Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="me-auto">
             <Nav.Link href="#home">Home</Nav.Link>
-            <Nav.Link href="#link">About</Nav.Link>
+            <Nav.Link href="#link">Projects</Nav.Link>
           </Nav>
         </Navbar.Collapse>
       </Container>
@@ -26,8 +26,6 @@ export default function Cover() {
       <Topbar />
       <Container fluid>
         <Row>
-          
-
           <div className="cover-content col-md-5 text-white">
             <Container>
               <div style={{margin: "0 100pt"}}>
