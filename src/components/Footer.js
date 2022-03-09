@@ -22,7 +22,7 @@ const Footer = () => {
           <Container fluid>
             <Row>
 
-              <Col md="3" className="">
+              <Col md={3} className="">
                 <h1>Shreya Jha</h1>
                 <small>
                   <p><b>Address:</b><br/>Sector 34, Noida, UP, 201307</p>
@@ -37,16 +37,16 @@ const Footer = () => {
               </div>
               </Col>
 
-              <Col md="2" className="">
+              <Col md={2} className="">
                 <Section link="Events" link2="Contact" link3="Mentors" tag="Services" />
               </Col>
 
-              <Col md="2" className="">
+              <Col md={2} className="">
                 <Section link="Events" link2="Contact" link3="Mentors" tag="Products" />
               </Col>
 
-              <Col md="3" className="">
-                <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d14324.45703376788!2d91.7830984!3d26.160408099999998!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sin!4v1646733825938!5m2!1sen!2sin" title="myFrame" width="500" height="250" style={{border:'0'}} allowfullscreen="" loading="lazy"></iframe>
+              <Col md={3} className="mt-4">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d14324.45703376788!2d91.7830984!3d26.160408099999998!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sin!4v1646733825938!5m2!1sen!2sin" title="myFrame" width="400" height="200" style={{border:'0', marginTop:'10pt'}} allowfullscreen="" loading="lazy"></iframe>
               </Col>
 
 
