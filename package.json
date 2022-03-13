@@ -2,7 +2,7 @@
   "name": "my_site",
   "version": "0.1.0",
   "private": true,
-  "homepage":"https://my_site.github.io/",
+  "homepage":"https://Shreya388.github.io/my_site",
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.2",
     "@testing-library/react": "^12.1.3",
